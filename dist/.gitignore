@@ -1,0 +1,13 @@
+# Ignore a specific file (Lines starting with '#' are comments)
+secret_config.json
+
+# Ignore an entire directory (always add a trailing slash)
+node_modules/
+dist/
+
+# Ignore all files matching an extension
+*.log
+*.env
+
+# Exception: Ignore all .log files EXCEPT this one
+!important.log
